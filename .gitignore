@@ -1,0 +1,43 @@
+# Dependencies, builds and local caches
+node_modules/
+.next/
+.next.*/
+*.tsbuildinfo
+__pycache__/
+*.pyc
+.cache/
+.npm/
+
+# Private installer settings and reader/owner credentials
+.env
+.env.*
+!.env.example
+.security-backups/
+.deployment-backups/
+.network/
+.network-updates/
+network-config-active.json
+deployed_addresses.json
+
+# Generated network data, database files, logs and backups
+public/index/
+data/
+log/
+logs/
+*.log
+*.log.gz
+*.jsonl
+*.jsonl.gz
+*.db
+*.sqlite*
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bak
+*.bak.*
+*.part
+*.pem
+id_rsa*
+id_ed25519*
+.DS_Store
